@@ -1,10 +1,12 @@
 #include "DiscreetDistribution.h"
 
+
 DiscreetDistribution::DiscreetDistribution(){
 	srand(time(NULL));
 	generated_value = 0;
 	discreet_value = 0;
 }
+
 float  DiscreetDistribution::generateNumber() {
 	float a = rand() % 100;
 	return a/100;

@@ -8,14 +8,20 @@ using namespace std;
 class DiscreetDistribution
 {
 private:
+
 	float generated_value;
 	int discreet_value;
+
 	void printValues();
 	int setDiscreetValueOfGeneratedNumber();
 	float generateNumber();
+
 public:
 	DiscreetDistribution();
-	
+
+	//
+	// main function of first exercise
+	//
 	void generate();
 	
 	~DiscreetDistribution();
