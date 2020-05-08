@@ -116,11 +116,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DiscreetDistribution.cpp" />
+    <ClCompile Include="EliminationMethod.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Consts.h" />
     <ClInclude Include="DiscreetDistribution.h" />
+    <ClInclude Include="EliminationMethod.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
